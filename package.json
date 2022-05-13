@@ -1,0 +1,29 @@
+{
+  "name": "shopify-non-embedded-app-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.2",
+    "@shopify/shopify-api": "^3.0.1",
+    "chalk": "^4.1.2",
+    "envfile": "^6.17.0",
+    "graphql": "^16.5.0",
+    "localtunnel": "^2.0.2",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.32",
+    "@types/react": "^18.0.9",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "^4.6.4"
+  }
+}
